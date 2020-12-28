@@ -1,9 +1,8 @@
 const button = document.querySelector(".btn");
-mapboxgl.accessToken = 'pk.eyJ1IjoiYXNod2luMzY2IiwiYSI6ImNrajVwNW1rZjB6Z24yc2szNzg2ZnNmdHEifQ.GcyQ-gNRy8i8sRWZJRKVPw';
 
 button.addEventListener("click", function(){
   var ip = document.querySelector(".ip-input").value;
-  var api_key = "at_8fSl78MxAysnROSCLVwatObbSiFvV";
+  
   $(function() {
     $.ajax({
       url: "https://geo.ipify.org/api/v1",
